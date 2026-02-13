@@ -1,0 +1,28 @@
+
+/*********************
+ Author: Danae Sabinas
+ 02/12/2026
+*********************/
+
+body {
+	background-color: #f5efe6;
+	text-color: #4b3832;
+}
+
+h1, h2, h3 {
+	background-color: #8b5e3b;
+	text-color: #ffffff;
+}
+
+nav {
+	background-color: #d4a373;
+}
+
+main {
+	background-color: #ffffff;
+}
+
+footer {
+	background-color: #8b5e3b;
+	text-color: #ffffff;
+}
