@@ -5,39 +5,63 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <title>WEB 110 Projects</title>
-    <style>
-      body {
-	      background-color: IndianRed;
-	      color: white;
-	      font-family: "Comic Sans MS", cursive, sans-serif;
-      }
+   <style>
+	
+		* {
+			box-sizing: border-box;
+			margin: 0;
+			padding: 0;
+		}
+		
+		body {
+			background-color: #F7D6D0;
+			color: #5A2A2A;
+			font-family: "Comic Sans MS", cursive, sans-serif;
+		}
 
-      nav {
-	      color: white;
-	      font-weight: bold;
-	      text-align: center;
-      }
+		nav {
+			text-align: center;
+		}
+		
+		.grid-nav {
+			display: grid;
+			grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+			gap: 16px;
+			padding: 30px;
+			max-width: 1000px;
+			margin: 0 auto;
+		}
 
-      nav a {
-	      color: lightSalmon;
-	      padding: 10px;
-	      text-decoration: none;
-      }
+		.grid-nav a {
+			align-items: center;
+			background: #FFF7F6;
+			border-radius: 12px;
+			box-shadow: 0 4px 10px rgba(217, 124, 124, 0.9);
+			color: #5A2A2A;
+			display: flex;
+			font-weight: bold;
+			justify-content: center;
+			padding: 20px;
+			text-decoration: none;
+		}
 
-      nav a:hover {
-	      color: Maroon;
-      }
+		.grid-nav a:hover {
+			background: #E89A9A;
+			color: #FFF7F6;
+		}
 
-      h1, p {
-	      text-align: center;
-      }
-    </style>
+		h1, p {
+			color: #5A2A2A;
+			text-align: center;
+		}
+		
+	</style>
   </head>
 
   <body>
     <h1>WEB 110 Projects</h1>
     <p>Written by: Danae</p>
-    <nav>
+    <nav class="grid-nav">
 		<a href="https://stormblessed143.github.io/Spring2026Web110/">Home</a>
 		<a href="Week2Project/home.html">Parks &amp; Rec</a> &nbsp;
 		<a href="Week4Project/home.html">Cozy Cafe</a> &nbsp;
