@@ -1,0 +1,99 @@
+<!--
+ Danae Sabinas
+ 05/11/2026
+ Web110 Final Exam
+-->
+
+<!DOCTYPE html>
+
+<html lang="en-us">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		
+		<title>Form</title>
+		
+		<link rel="stylesheet" href="styles.css">
+	</head>
+	
+	<body class="form-page">
+		<div id="wrapper">
+			<div class="logo">
+				<h1>Lord of The Rings</h1>
+				<img src="images/symbol.jpg" alt="White tree of Minas Tirith">
+			</div>
+			
+			<h2 class="titles">The White Tree Chronicle</h2>
+			
+			<!-- Main Navigation -->
+			<nav class="top-nav">
+				<ul>
+					<li><a href="final1_home.html">Chronicle Gateway</a></li>
+					<li><a href="final2_details.html">Fourth Circle Archives</a></li>
+					<li><a href="final3_form.html">The Sealed Scroll</a></li>
+					<li><a href="final4_credits.html">Hall of Scribes</a></li>
+				</ul>
+			</nav>
+			
+			<div class="form-content">
+				<h3 class="form-titles">Receive Dispatches from the White Tree Chronicle</h3>
+			
+				<p class="form-titles">Complete the registry below to receive the latest news, royal announcements, market reports, and tales from across
+				the Reunited Kingdom, delivered by courier from Minas Tirith.</p>
+				
+				<form action="https://webdevbasics.net/scripts/demo.php">
+					<label for="fullname">Name and House</label>
+					<input type="text" id="fullname" name="fullname" required>
+				
+					<label for="delivery">Request Courier Delivery</label>
+					<input type="checkbox" id="delivery" name="delivery">
+				
+					<h3>Preferred Edition</h3>
+				
+					<label for="gondor">Gondor Edition</label>
+					<input type="radio" id="gondor" name="edition" value="gondor">
+				
+					<label for="arnor">Arnor Edition</label>
+					<input type="radio" id="arnor" name="edition" value="arnor">
+				
+					<label for="minas-tirith">Minas Tirith Edition</label>
+					<input type="radio" id="minas-tirith" name="edition" value="minas-tirith">
+				
+					<label for="date">Date of Enrollment</label>
+					<input type="date" id="date" name="date">
+				
+					<label for="comments">Messages for the Chronicle Scribes</label>
+					<textarea id="comments" name="comments"></textarea>
+				
+					<label for="options">Realm of Interest</label>
+					<select id="options" name="options">
+						<option disabled hidden selected>Choose one</option>
+						<option value="Minas Tirith">Minas Tirith</option>
+						<option value="Osgiliath">Osgiliath</option>
+						<option value="Rohan">Rohan</option>
+						<option value="Ithilien">Ithilien</option>
+						<option value="Arnor">Arnor</option>
+					</select>
+				
+					<input type="submit" value="Seal and Send">
+				
+					<input type="reset" value="Clear the scroll">
+				</form>
+			</div>
+		</div>
+		
+		<footer>
+			<small><em>Middle Earth Ambassador: <a href="mailto:dsabinas@stumail.jccc.edu" class="email-link">dsabinas@stumail.jccc.edu</a></em></small>
+			<!--Footer Navigation -->
+			<nav class="bottom-nav">
+				<ul>
+					<li><a href="final1_home.html">Home</a></li>
+					<li><a href="final2_details.html">Details</a></li>
+					<li><a href="final3_form.html">Form</a></li>
+					<li><a href="final4_credits.html">Credits</a></li>
+				</ul>
+			</nav>
+			<a href="https://stormblessed143.github.io/Spring2026Web110/">Return to Index page</a>
+		</footer>
+	</body>
+</html>
